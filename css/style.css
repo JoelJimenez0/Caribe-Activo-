@@ -47,7 +47,6 @@ nav a {
     color: #FFF;
     text-align: center;
     padding-left: 6%;
-    ;
 }
 
 .tours {
@@ -84,10 +83,11 @@ nav a {
     border-radius: 20px;
     cursor: pointer;
 }
-.slice-container{
+.main-slice{
     background-image: -webkit-gradient(linear,left top, left bottom,from(#0d21d3),color-stop(58%,transparent)),url(../images/header.jpg);
     background-position: 20% 100%;
     min-width: 100%;
     background-image: -moz-linear-gradient();
     background-repeat: repeat;
+    border-top: 1px solid #0050d0 ;
 }
