@@ -5,12 +5,14 @@ body{
     color: black;
     line-height: 20px;
 }
-.header{
+.nav-container{
     background-color: #0d21d3;
     position: fixed;
     height: 74px;
     top: 0;
+    overflow: hidden;
     width: 100%;
+    z-index: 2;
 }
 .caribe-logo{
     float: left;
@@ -34,6 +36,7 @@ nav li{
     text-align: center;
     letter-spacing: 2px;
     padding-right: 40px;
+    display: flex;
 }
 nav a {
     text-decoration: none; 
@@ -147,14 +150,14 @@ nav a {
     flex-wrap: wrap;
     border-bottom: #333 solid 0.5px;
     padding-bottom: 40px;
-    width: 100px;
 }
 .ExcursionSideBarContainer{
-    flex: 1 1 30%;
+    width: 30%;
 }
 .sidebarcontent {
     position: sticky;
-    top: 50px;
+    top: 70px;
+    
 }
 
 .sidebarcontent img {
@@ -198,15 +201,15 @@ nav a {
 }   
 /*end of the excursion side bar and start of the excursion boxes*/
 .Excursion-Content {
-    flex: 1 1 70%;
+    width: 68%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    display: flex;
     flex-direction: row;
-    flex: 1 1 70%;
     margin-left: 10px;
     margin-right: 10px;
+    position: relative;
+    float: right;
 }
 .E-BoxesContainer {
     max-width: 30%;
