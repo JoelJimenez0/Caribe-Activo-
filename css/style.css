@@ -39,7 +39,8 @@ nav a {
     text-decoration: none; 
     color: #fff;   
  }
-.main-slice{
+ /*end of the nav and start of the main menu*/
+ .main-slice{
     margin-top: 0;
 }
 .hotel{
@@ -91,3 +92,213 @@ nav a {
     background-repeat: repeat;
     border-top: 1px solid #0050d0 ;
 }
+/*end of the main menu and start of the excursions header*/
+.excursions-container {
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 0;
+    max-width: 1300px;
+    align-content: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header-containerV2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.excursions {
+    background-color: #f1f1f1;
+    background-repeat: repeat;
+}
+.excursions-container div .tab1, .tab2 {
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+}
+
+.tab1 {
+    background-color: #00135f;
+    color: rgba(255,255,255,.87);
+    text-decoration: none;
+}
+.tab2{
+    background-color: #FFF;
+    color: #00135f;
+    text-decoration: none;
+}
+.excursions-container h3 {
+    color:#00135f;
+    font-size: 100px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+
+}
+/*end of the excursion header and start of the excursion side bar*/
+.excursionsidebar {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px;
+    width: 100px;
+}
+.ExcursionSideBarContainer{
+    flex: 1 1 30%;
+}
+.sidebarcontent {
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarcontent img {
+    width: 60px;
+    height: 140px;
+    max-height: 50px;
+    max-width: 70px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.sidebarcontent h3 {
+    font-size: 38px;
+    color:#000;
+    margin-left: 50px;
+    padding: 0;
+}
+.excursionsidebar h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.excursionsidebar p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.experiencias p{
+    box-sizing: border-box;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 10px;
+    border: #333 solid 0.5px;
+    padding: 5px;
+    font-size: 15px;
+    padding-left: 20px;
+}   
+/*end of the excursion side bar and start of the excursion boxes*/
+.Excursion-Content {
+    flex: 1 1 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.E-BoxesContainer {
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.E-Box1-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox1.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plazas a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 4px;
+    background-color: #1fcaca;
+    border-radius: 5px;
+    font-family: Inter,sans-serif;;
+}
+
+.plazas {
+    margin-bottom: 3px;
+    align-self: flex-start;
+    background-color: #333;
+    align-self: center;
+}
+
+.favoritos {
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.toursboxinfo {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.tourstitle {
+    font-family: Poppins,sans-serif;
+    margin-left: 15px;
+    color: #00135f;
+    margin-top: 5px;
+    font-size: 1.4vw;
+    width: 100%;
+}
+.toursboxleftinfo {
+    margin-left: 10px;
+    color: rgba(0,0,0,.51);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.schedule2, .clock {
+    max-width: 15px;
+}
+
+.toursboxrightinfo {
+    color: rgba(0,0,0,.51);
+    margin-right: 15px;
+}
+.toursinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.oldvalue {
+    color: #e00000;
+    font-weight: bolder;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: line-through;
+}
+.actualvalue {
+    font-family: Inter,sans-serif;
+    color: #0d21d3;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.note {
+    color: #8d94a3;
+    font-size: 10px;
+}
+
