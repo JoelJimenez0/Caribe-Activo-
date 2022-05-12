@@ -202,6 +202,11 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 70%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .E-BoxesContainer {
     max-width: 30%;
@@ -212,6 +217,138 @@ nav a {
 .E-Box1-img {
     background-color: #0d21d3;
     background-image: url(../images/Excursions/ExcursionBox1.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box2-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox2.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box3-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box4-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox4.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box5-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox5.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box6-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox6.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box7-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox7.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box8-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox8.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box9-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox9.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box10-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox10.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box11-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox11.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box12-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox12.jpeg);
     width: 100%;
     height: 220px;
     background-size: cover;
