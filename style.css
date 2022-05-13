@@ -1,0 +1,655 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+}
+.nav-container{
+    background-color: #0d21d3;
+    position: fixed;
+    height: 74px;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+}
+.caribe-logo{
+    float: left;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+.nav-list{
+    list-style: none;
+    float: right;
+    padding-top: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav li{
+    float: left;
+    color: #fff;
+    margin-right: 20px;
+    line-height: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-right: 40px;
+    display: flex;
+}
+nav a {
+    text-decoration: none; 
+    color: #fff;   
+ }
+ /*end of the nav and start of the main menu*/
+ .main-slice{
+    margin-top: 0;
+}
+.hotel{
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    padding-left: 6%;
+}
+
+.tours {
+    font-size: 20px;
+    color: #ffd900;
+    margin-top: 50px;
+    letter-spacing: 4px;   
+    text-align: center;
+
+}
+.sliceh1{
+    margin-top: 100px;
+    width: 800px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+    padding-left: 20%;
+    color: white;
+}
+.sliceh10{
+    width: 800px;
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+    padding-left: 20%;
+    color: #FFF;
+}
+.slice img {
+    margin-top: 0;
+    height: 265px;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main-slice{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#0d21d3),color-stop(58%,transparent)),url(../images/header.jpg);
+    background-position: 20% 100%;
+    min-width: 100%;
+    background-image: -moz-linear-gradient();
+    background-repeat: repeat;
+    border-top: 1px solid #0050d0 ;
+}
+/*end of the main menu and start of the excursions header*/
+.excursions-container {
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 0;
+    max-width: 1300px;
+    align-content: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header-containerV2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.excursions {
+    background-color: #f1f1f1;
+    background-repeat: repeat;
+}
+.excursions-container div .tab1, .tab2 {
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+}
+
+.tab1 {
+    background-color: #00135f;
+    color: rgba(255,255,255,.87);
+    text-decoration: none;
+}
+.tab2{
+    background-color: #FFF;
+    color: #00135f;
+    text-decoration: none;
+}
+.excursions-container h3 {
+    color:#00135f;
+    font-size: 100px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+
+}
+/*end of the excursion header and start of the side bars*/
+.excursionsidebar {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px;
+}
+.sidebar-and-activities{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px;
+}
+.sidebar-and-fiesta{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px
+}
+.ExcursionSideBarContainer{
+    width: 30%;
+}
+.Activities-Side-Bar-Container{
+    width: 30%;
+}
+.Fiesta-Sidebar-Container{
+    width: 30%;
+}
+.sidebarcontent {
+    position: sticky;
+    top: 70px;
+    
+}
+
+.sidebarcontent img {
+    width: 50px;
+    height: 140px;
+    max-height: 50px;
+    max-width: 70px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.sidebarcontent h3 {
+    font-size: 38px;
+    color:#000;
+    margin-left: 50px;
+    padding: 0;
+}
+.excursionsidebar h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.excursionsidebar p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.sidebar-and-activities h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.sidebar-and-activities p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.sidebar-and-fiesta h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.sidebar-and-fiesta p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.experiencias p{
+    box-sizing: border-box;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 10px;
+    border: #333 solid 0.5px;
+    padding: 5px;
+    font-size: 15px;
+    padding-left: 20px;
+}   
+/*end of the excursion side bar and start of the excursion boxes*/
+.Excursion-Content {
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+}
+.actividades-container{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+}
+.Fiesta-Container{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+}
+.E-BoxesContainer {
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.A-Boxes-Container{
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.F-Boxes-Container{
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.E-Box1-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox1.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box2-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox2.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box3-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box4-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox4.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box5-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox5.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box6-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox6.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box7-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox7.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box8-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox8.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box9-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox9.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box10-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox10.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box11-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox11.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box12-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox12.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plazas a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 4px;
+    background-color: #1fcaca;
+    border-radius: 5px;
+    font-family: Inter,sans-serif;;
+}
+
+.plazas {
+    margin-bottom: 3px;
+    align-self: flex-start;
+    background-color: #333;
+    align-self: center;
+}
+
+.favoritos {
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.toursboxinfo {
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.toursboxinfo2 {
+    display: flex;
+    flex-direction:column;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.tourstitle {
+    font-family: Poppins,sans-serif;
+    margin-left: 15px;
+    color: #00135f;
+    margin-top: 5px;
+    font-size: 1.4vw;
+    width: 100%;
+}
+.toursboxleftinfo {
+    margin-left: 10px;
+    color: rgba(0,0,0,.51);
+    font-size: 14px;
+    margin-bottom: 15px;
+    float: left;
+}
+.schedule2, .clock {
+    max-width: 15px;
+}
+.toursboxrightinfo {
+    color: rgba(0,0,0,.51);
+    margin-right: 15px;
+    float: left;
+}
+.toursinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+.oldvalue {
+    color: #e00000;
+    font-weight: bolder;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: line-through;
+}
+.actualvalue {
+    font-family: Inter,sans-serif;
+    color: #0d21d3;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.note {
+    color: #8d94a3;
+    font-size: 10px;
+}
+/*start of the activities's boxes*/
+.A-Box1-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen1.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box2-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen2.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box3-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box4-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen4.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box5-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen5.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box6-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen6.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box7-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen7.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box1-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen1.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box2-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen2.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box3-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
