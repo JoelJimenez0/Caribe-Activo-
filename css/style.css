@@ -157,10 +157,19 @@ nav a {
     border-bottom: #333 solid 0.5px;
     padding-bottom: 40px;
 }
+.sidebar-and-fiesta{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px
+}
 .ExcursionSideBarContainer{
     width: 30%;
 }
 .Activities-Side-Bar-Container{
+    width: 30%;
+}
+.Fiesta-Sidebar-Container{
     width: 30%;
 }
 .sidebarcontent {
@@ -213,6 +222,21 @@ nav a {
     font-weight: 400;
     color: #333;
 }
+.sidebar-and-fiesta h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.sidebar-and-fiesta p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
 .experiencias p{
     box-sizing: border-box;
     background-color: #FFF;
@@ -246,6 +270,17 @@ nav a {
     position: relative;
     float: right;
 }
+.Fiesta-Container{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+}
 .E-BoxesContainer {
     max-width: 30%;
     margin-top: 60px;
@@ -253,6 +288,12 @@ nav a {
     background-color: #FFF;
 }
 .A-Boxes-Container{
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.F-Boxes-Container{
     max-width: 30%;
     margin-top: 60px;
     border-radius: 30px;
@@ -441,13 +482,6 @@ nav a {
     justify-content: space-between;
     padding-bottom: 20px;
 }
-.A-Boxes-Container .toursboxleftinfo{
-    justify-content:space-evenly;
-}
-.A-Boxes-Container .toursboxrightinfo{
-    margin-top: 5px;
-    justify-content: space-evenly;
-}
 .tourstitle {
     font-family: Poppins,sans-serif;
     margin-left: 15px;
@@ -461,15 +495,15 @@ nav a {
     color: rgba(0,0,0,.51);
     font-size: 14px;
     margin-bottom: 15px;
+    float: left;
 }
 .schedule2, .clock {
     max-width: 15px;
 }
-.schedule, .hours{
-}
 .toursboxrightinfo {
     color: rgba(0,0,0,.51);
     margin-right: 15px;
+    float: left;
 }
 .toursinfo {
     display: flex;
@@ -522,7 +556,8 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}.A-Box3-img {
+}
+.A-Box3-img {
     background-color: #0d21d3;
     background-image: url(../images/activities/imagen3.jpeg);
     width: 100%;
@@ -533,7 +568,8 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}.A-Box4-img {
+}
+.A-Box4-img {
     background-color: #0d21d3;
     background-image: url(../images/activities/imagen4.jpeg);
     width: 100%;
@@ -556,7 +592,8 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}.A-Box6-img {
+}
+.A-Box6-img {
     background-color: #0d21d3;
     background-image: url(../images/activities/imagen6.jpeg);
     width: 100%;
@@ -567,9 +604,46 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}.A-Box7-img {
+}
+.A-Box7-img {
     background-color: #0d21d3;
     background-image: url(../images/activities/imagen7.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box1-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen1.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box2-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen2.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box3-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen3.jpeg);
     width: 100%;
     height: 220px;
     background-size: cover;
