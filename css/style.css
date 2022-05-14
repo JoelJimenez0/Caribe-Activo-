@@ -97,7 +97,7 @@ nav a {
 }
 /*end of the main menu and start of the excursions header*/
 .excursions-container {
-    background-color: #f1f1f1;
+    background-color: #edf3f8;
     padding-top: 60px;
     padding-bottom: 0;
     max-width: 1300px;
@@ -111,11 +111,11 @@ nav a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+    background-color: #edf3f8;
 }
 
 .excursions {
-    background-color: #f1f1f1;
+    background-color: #edf3f8;
     background-repeat: repeat;
 }
 .excursions-container div .tab1, .tab2 {
@@ -150,18 +150,21 @@ nav a {
     flex-wrap: wrap;
     border-bottom: #333 solid 0.5px;
     padding-bottom: 40px;
+    background-color: #edf3f8;
 }
 .sidebar-and-activities{
     display: flex;
     flex-wrap: wrap;
     border-bottom: #333 solid 0.5px;
     padding-bottom: 40px;
+    background-color: #edf3f8;
 }
 .sidebar-and-fiesta{
     display: flex;
     flex-wrap: wrap;
     border-bottom: #333 solid 0.5px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    background-color: #edf3f8;
 }
 .ExcursionSideBarContainer{
     width: 30%;
@@ -175,7 +178,7 @@ nav a {
 .sidebarcontent {
     position: sticky;
     top: 70px;
-    
+    background-color: #edf3f8;
 }
 
 .sidebarcontent img {
@@ -246,6 +249,7 @@ nav a {
     padding: 5px;
     font-size: 15px;
     padding-left: 20px;
+    width: 50%;
 }   
 /*end of the excursion side bar and start of the excursion boxes*/
 .Excursion-Content {
@@ -258,6 +262,7 @@ nav a {
     margin-right: 10px;
     position: relative;
     float: right;
+    background-color: #edf3f8;
 }
 .actividades-container{
     width: 68%;
@@ -268,7 +273,7 @@ nav a {
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
-    float: right;
+    float: left;
 }
 .Fiesta-Container{
     width: 68%;
@@ -469,7 +474,7 @@ nav a {
 .toursboxinfo {
     display: flex;
     flex-direction: column;
-    height: 160px;
+    height: 180px;
     align-items: flex-end;
     justify-content: space-between;
     padding-bottom: 20px;
@@ -512,7 +517,7 @@ nav a {
     width: 100%;
     height: 100%;
     align-items: flex-end;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .oldvalue {
     color: #e00000;
