@@ -1,0 +1,1098 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+}
+.nav-container{
+    background-color: #0d21d3;
+    position: fixed;
+    height: 74px;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 2;
+}
+.caribe-logo{
+    float: left;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+.nav-list{
+    list-style: none;
+    float: right;
+    padding-top: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+nav li{
+    float: left;
+    color: #fff;
+    margin-right: 20px;
+    line-height: 1.3em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-right: 40px;
+    display: flex;
+}
+nav a {
+    text-decoration: none; 
+    color: #fff;   
+ }
+ /*end of the nav and start of the main menu*/
+ .main-slice{
+    margin-top: 0;
+}
+.hotel{
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    padding-left: 6%;
+}
+
+.tours {
+    font-size: 20px;
+    color: #ffd900;
+    margin-top: 50px;
+    letter-spacing: 4px;   
+    text-align: center;
+
+}
+.sliceh1{
+    margin-top: 100px;
+    width: 800px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+    padding-left: 20%;
+    color: white;
+}
+.sliceh10{
+    width: 800px;
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Quicksand, sans-serif;
+    padding-left: 20%;
+    color: #FFF;
+}
+.slice img {
+    margin-top: 0;
+    height: 265px;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main-slice{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#0d21d3),color-stop(58%,transparent)),url(../images/header.jpg);
+    background-position: 20% 100%;
+    min-width: 100%;
+    background-image: -moz-linear-gradient();
+    background-repeat: repeat;
+    border-top: 1px solid #0050d0 ;
+}
+/*end of the main menu and start of the excursions header*/
+.excursions-container {
+    background-color: #edf3f8;
+    padding-top: 60px;
+    padding-bottom: 0;
+    max-width: 1300px;
+    align-content: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.header-containerV2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edf3f8;
+}
+
+.excursions {
+    background-color: #edf3f8;
+    background-repeat: repeat;
+}
+.excursions-container div .tab1, .tab2 {
+    box-sizing: border-box;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+}
+
+.tab1 {
+    background-color: #00135f;
+    color: rgba(255,255,255,.87);
+    text-decoration: none;
+}
+.tab2{
+    background-color: #FFF;
+    color: #00135f;
+    text-decoration: none;
+}
+.excursions-container h3 {
+    color:#00135f;
+    font-size: 100px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+
+}
+/*end of the excursion header and start of the side bars*/
+.excursionsidebar {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px;
+    background-color: #edf3f8;
+}
+.sidebar-and-activities{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #333 solid 0.5px;
+    padding-bottom: 40px;
+    background-color: #edf3f8;
+}
+.sidebar-and-fiesta{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    background-color: #edf3f8;
+}
+.ExcursionSideBarContainer{
+    width: 30%;
+}
+.Activities-Side-Bar-Container{
+    width: 30%;
+}
+.Fiesta-Sidebar-Container{
+    width: 30%;
+}
+.sidebarcontent {
+    position: sticky;
+    top: 70px;
+    background-color: #edf3f8;
+}
+
+.sidebarcontent img {
+    width: 50px;
+    height: 140px;
+    max-height: 50px;
+    max-width: 70px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.sidebarcontent h3 {
+    font-size: 38px;
+    color:#000;
+    margin-left: 50px;
+    padding: 0;
+}
+.excursionsidebar h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.excursionsidebar p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.sidebar-and-activities h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.sidebar-and-activities p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.sidebar-and-fiesta h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 30px;
+}
+.sidebar-and-fiesta p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-family: Inter,sans-serif;
+    font-size: 17px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #333;
+}
+.experiencias p{
+    box-sizing: border-box;
+    background-color: #FFF;
+    color: #333;
+    border-radius: 10px;
+    border: #333 solid 0.5px;
+    padding: 5px;
+    font-size: 15px;
+    padding-left: 20px;
+    width: 50%;
+}   
+/*end of the excursion side bar and start of the excursion boxes*/
+.Excursion-Content {
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+    background-color: #edf3f8;
+}
+.actividades-container{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+}
+.Fiesta-Container{
+    width: 68%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: right;
+}
+.E-BoxesContainer {
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.A-Boxes-Container{
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.F-Boxes-Container{
+    max-width: 30%;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: #FFF;
+}
+.E-Box1-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox1.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box2-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox2.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box3-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box4-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox4.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box5-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox5.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box6-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox6.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box7-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox7.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box8-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox8.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box9-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox9.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box10-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox10.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box11-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox11.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.E-Box12-img {
+    background-color: #0d21d3;
+    background-image: url(../images/Excursions/ExcursionBox12.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plazas a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 4px;
+    background-color: #1fcaca;
+    border-radius: 5px;
+    font-family: Inter,sans-serif;;
+}
+
+.plazas {
+    margin-bottom: 3px;
+    align-self: flex-start;
+    background-color: #333;
+    align-self: center;
+}
+
+.favoritos {
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.toursboxinfo {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.toursboxinfo2 {
+    display: flex;
+    flex-direction:column;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.tourstitle {
+    font-family: Poppins,sans-serif;
+    margin-left: 15px;
+    color: #00135f;
+    margin-top: 5px;
+    font-size: 1.4vw;
+    width: 100%;
+}
+.toursboxleftinfo {
+    margin-left: 10px;
+    color: rgba(0,0,0,.51);
+    font-size: 14px;
+    margin-bottom: 15px;
+    float: left;
+}
+.schedule2, .clock {
+    max-width: 15px;
+}
+.toursboxrightinfo {
+    color: rgba(0,0,0,.51);
+    margin-right: 15px;
+    float: left;
+}
+.toursinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.oldvalue {
+    color: #e00000;
+    font-weight: bolder;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-decoration: line-through;
+}
+.actualvalue {
+    font-family: Inter,sans-serif;
+    color: #0d21d3;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.note {
+    color: #8d94a3;
+    font-size: 10px;
+}
+/*start of the activities's boxes*/
+.A-Box1-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen1.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box2-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen2.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box3-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box4-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen4.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box5-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen5.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box6-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen6.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.A-Box7-img {
+    background-color: #0d21d3;
+    background-image: url(../images/activities/imagen7.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box1-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen1.jpg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box2-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen2.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.F-Box3-img{
+    background-color: #0d21d3;
+    background-image: url(../images/fiesta/imagen3.jpeg);
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: 100% 70%;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*end of the excursions section and start of the about-us section*/
+.Adittional-info{
+    background-color: #cfdfee;
+    padding-top: 50px;
+}
+.A-I-container{
+    max-width: 1300px;
+    align-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.caracteristics{
+    max-width: 1300px;
+    text-align: center;
+}
+.agency{
+    font-size: 85px;
+    color: #00135f;
+    line-height: 1em;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 100%;
+}
+.opinions{
+    width: 600px;
+    margin: 7px auto 25px;
+    font-family: Inter,sans-serif;
+    color: #3768a0;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.exp{
+    font-weight: 400;
+    color: #000;
+    font-size: 13px;
+    opacity: 1;
+    letter-spacing: 3px;
+    padding-top: 100px;
+}
+.W-W-O-Box img{
+    width: 18%;
+    padding-top: 20px;
+}
+.what-we-offer {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.W-W-O-Box {
+    justify-content: space-evenly;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    max-width: 22%;
+    background-color: white;
+    border-radius: 20px;
+    height: 225px;
+}
+.W-W-O-Box h3{
+    margin-bottom: 5px;
+    font-family: Inter,sans-serif;
+    color: #1b328b;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.what-we-offer p{
+    margin-top: 7px;
+    color: #2b4d7f;
+    font-family: Inter,sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*end of the additional-info section and start of the questions section*/
+.questions{
+    background-size: cover;
+    background-image: url(../images/questionsbackground.jpg);
+    background-repeat: repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+.questions-container {
+    max-width: max-content;
+    height: 700px;
+    align-content: center;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.questions-container h3 {
+    margin-top: 0px;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 90px;
+    letter-spacing: -2px;
+    float: left;
+    line-height: 1em;
+}
+
+.description-contact {
+    width: 450px;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-family: Inter,sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+}
+
+.whatsapp-link {
+    margin-top: 25px;
+    border-radius: 12px;
+    background-color: #fff;
+    font-family: Inter,sans-serif;
+    color: #4a9b27;
+    font-size: 15px;
+    font-weight: 600;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12.5px;
+}
+/*end of the question section and start of the know-about-us section*/
+.know-about-us {
+    background-color: #FFF;
+    background-repeat: repeat;
+    display:flex ;
+}
+
+.K-A-U-Container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.conocenos {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 2%;
+    border: solid rgba(194,199,209,.87) 0.5px;
+    margin-top:50px;
+    padding-bottom: 0px;
+}
+
+.conocenostittle {
+    width: 100%;
+    margin: -2px auto -1px 0;
+    font-family: Quicksand-Light;
+    color: #00135f;
+    font-size: 6.5vw;
+    line-height: 1em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+.comentario-conocenos {
+    width: 90%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #516381;
+    font-size: 19px;
+    line-height: 1.5em;
+}
+
+.administracion {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 40px;
+    width: 80%;
+    padding-left: 125px;
+}
+.administracion img {
+    width: 95%;
+    height: 50%;
+    max-width: none;
+    border-radius: 200px;
+}
+
+.position {
+    text-align: center;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+.administracion h3 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+/*end of the know-about-us and start of the contact div*/
+.contact {
+    background-color: #0050da;
+    background-repeat: repeat;
+}
+
+.ubicacion-contacto-enlaces-box  {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;   
+    padding-top: 50px;
+    justify-content: space-between;
+    color: #FFF;
+    }
+
+    @media (max-width:600px){
+
+        .ubicacion-contacto-enlaces-box {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ubicacion, .contacto, .enlaces {
+            min-width: 100%;
+            align-items: center;
+            text-align: center;
+            margin-bottom:3%;
+        }
+    }
+
+.ubicacion, .contacto, .enlaces {
+    width: 30%;
+    border-top: #003eaa solid 1px;
+}
+
+.map {
+    overflow: hidden;   
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+}
+
+.enlaces a {
+    text-decoration: none;
+}
+
+/* OPINIONES CONTAINER */
+
+.opinionesclientes {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right:auto;
+    border-bottom: 0.5px #acb0b6 solid;
+}
+
+.opinionesclientes h3 {
+    margin-bottom: 15px;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+.opiniones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.opinion {
+    max-width: 23%;
+    padding: 10px;
+    border: 1px solid rgba(181,181,204,.3);
+    border-radius: 20px;
+    background-color: #dce9ff;
+}
+.copyright-and-stars-container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right:auto;
+    border-bottom: 0.5px #acb0b6 solid;
+}
+/* FOOTER INFO CONTAINER */
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+}
+.ubicacion div {
+    margin-bottom:  15px;
+    font-size: 14px;
+}
+.ubicacion h3, .contacto h3, .enlaces h3 {
+    margin-bottom: 15px;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.ubicacion img {
+    width: 20px;
+    margin-right: 8px;
+    margin-left: 3px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.ubicacion a {
+    color: #FFF;
+}
+.input{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 0 solid #000;
+    border-radius: 12px;
+    background-color: #003eaa;
+    font-family: Inter,sans-serif;
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+}
+
+#textarea {
+    height: 50px;
+}
+.sendbutton {
+    margin-top: 11px;
+    border-radius: 12px;
+    background-color: #fff;
+    font-family: Inter,sans-serif;
+    color: #0050da;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.enlaces a {
+    margin-bottom: 5px;
+    font-family: Inter,sans-serif;
+    color: #7bfeff;
+    font-weight: 400;
+}
+.copyright-and-stars-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.copyright {
+    color: #fff;
+    font-size: 13px;
+}
+.copyright a{
+    font-family: Inter,sans-serif;
+    color: #7bfeff;
+}
+.stars {
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.stars img {
+    max-width: 30%;
+}
+footer {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logocaribeactivo img {
+    width: 100px;
+}
+.socialnetworks{
+    margin-right: 40px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.socialnetworks a img{
+    max-width: 30px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
